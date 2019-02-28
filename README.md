@@ -1,5 +1,20 @@
 # manual-xml
 
+### rounded_border.xml (라운디드 버튼 보더)
+```
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/white"/>
+            <corners android:radius="10dp" />
+            <stroke
+                android:width="2dp"
+                android:color="@color/colorPrimary"
+                />
+        </shape>
+    </item>
+</selector>
+```
 
 ### gradient_bg1.xml (그레디언트, 그래디언트)
 ```
