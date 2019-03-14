@@ -1,43 +1,32 @@
 # manual-xml
 
 ### 특수문자
+\
+
+### copyright intro 
 ```
+    <RelativeLayout
+        android:id="@+id/intro_layout_bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        >
 
- 결과값
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_centerInParent="true"
+            android:text="@string/intro_copyright"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_small"
+            android:gravity="center"
+            />
 
-요소 이름
-
-요소 번호
-
- &
-
- &amp;
-
- &#38;
-
- <
-
- &lt;
-
- &#60;
-
- >
-
- &gt;
-
- &#62;
-
- '
-
- &apos;
-
- &#39;
-
- "
-
- &quot;
-
- &#34; 
+    </RelativeLayout>
 ```
 
 ### border.xml 사각테두리 
