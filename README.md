@@ -1,5 +1,30 @@
 # manual-xml
 
+### border.xml 사각테두리 
+```
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+ 
+    <item
+        android:bottom="1dp"
+        android:left="1dp"
+        android:right="1dp"
+        android:top="1dp">
+        <shape android:shape="rectangle" >
+            <stroke
+                android:width="1dp"
+                android:color="#dcdcdc" />
+ 
+            <solid android:color="#FFF" />
+        </shape>
+    </item>
+ 
+</layer-list>
+
+
+출처: https://wimir-dev.tistory.com/44 [[위미르 개발팀] Android, iOS , Web 제작]
+```
+
 ### rounded_border.xml (라운디드 버튼 보더)
 ```
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
