@@ -1,5 +1,33 @@
 # manual-xml
 
+### emptyview
+
+```
+    <LinearLayout
+            android:id="@+id/view_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:visibility="gone"
+            >
+
+            <ImageView
+                style="@style/apptheme_pizzaguy"
+                android:src="@drawable/pizza_monster" />
+
+            <TextView
+                style="@style/apptheme_body1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/message_no_results"
+                android:textColor="@color/greyDisabled" />
+
+        </LinearLayout>
+```
+
+
 ### 특수문자
 \
 
