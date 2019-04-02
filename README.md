@@ -1,5 +1,8 @@
 # manual-xml
 
+아이콘 애셋 assets 만들기 :  
+http://romannurik.github.io/AndroidAssetStudio/index.html  
+
 ### border_bottom.xml
 ```
 <?xml version="1.0" encoding="utf-8"?>
