@@ -167,6 +167,94 @@ http://romannurik.github.io/AndroidAssetStudio/index.html
 사이트 :  
 https://material.io/tools/icons/  
 
+### 파워영어 가로로 recyclerview 3개  
+```
+
+            <LinearLayout
+                android:visibility="gone"
+                android:orientation="vertical"
+                android:id="@+id/tab3_upper_recycler_2_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:textSize="@dimen/text_large"
+                        android:id="@+id/tab3_upper_menu_2_text_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tab_3_upper_2_menu_2"
+                        android:textColor="@color/white"
+                        android:layout_alignParentTop="true"
+                        />
+
+                    <android.support.v7.widget.RecyclerView
+                        android:layout_below="@+id/tab3_upper_menu_2_text_2"
+                        android:id="@+id/tab3_upper_menu_2_recycler_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="@dimen/text_large"
+                    android:id="@+id/tab3_upper_menu_2_text_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tab_3_upper_2_menu_3"
+                    android:textColor="@color/white"
+                    android:layout_alignParentTop="true"
+                    />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/tab3_upper_menu_2_recycler_3"
+                    android:layout_below="@+id/tab3_upper_menu_2_text_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="@dimen/text_large"
+                    android:id="@+id/tab3_upper_menu_2_text_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tab_3_upper_2_menu_4"
+                    android:textColor="@color/white"
+                    android:layout_alignParentTop="true"
+                    />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/tab3_upper_menu_2_recycler_4"
+                    android:layout_below="@+id/tab3_upper_menu_2_text_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+
+            </LinearLayout>
+```
+
 ### gradient_bg1.xml (그레디언트, 그래디언트)
 
 사이트 :
