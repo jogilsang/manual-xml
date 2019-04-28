@@ -26,6 +26,18 @@ http://romannurik.github.io/AndroidAssetStudio/index.html
 
 ```
 
+### custom style
+1. TextView
+```
+<style name="Tab2TitleTextView" parent="@android:style/Widget.TextView">
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:textColor">@color/black</item>
+    <item name="android:layout_centerHorizontal">true</item>
+    <item name="android:textSize">@dimen/text_large</item>
+</style>
+```
+
 ### emptyview
 
 ```
