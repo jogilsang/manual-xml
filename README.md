@@ -38,6 +38,18 @@ http://romannurik.github.io/AndroidAssetStudio/index.html
 </style>
 ```
 
+### include
+```
+            <include
+                layout="@layout/main_content_search_edit"
+                android:id="@+id/tab_3_searchedit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                />
+```
+
 ### emptyview
 
 ```
