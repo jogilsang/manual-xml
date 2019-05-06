@@ -3,6 +3,24 @@
 아이콘 애셋 assets 만들기 :  
 http://romannurik.github.io/AndroidAssetStudio/index.html  
 
+### RelativeLayout - TextView - Center
+```
+                <RelativeLayout
+                    android:id="@+id/btn_task_a"
+                    android:background="@drawable/border"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2">
+
+                    <TextView
+                        android:id="@string/task_1"
+                        style="@style/btn_text_medium"
+                        android:layout_centerInParent="true"
+                        android:text="@string/task_1" />
+
+                </RelativeLayout>
+```
+
 ### border_bottom.xml
 ```
 <?xml version="1.0" encoding="utf-8"?>
