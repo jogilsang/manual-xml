@@ -99,44 +99,44 @@ http://romannurik.github.io/AndroidAssetStudio/index.html
 
 
 ### 특수문자
+ ```
 \
-
-
- 결과값
-
-요소 이름
-
-요소 번호
-
+```
+```
  &
 
  &amp;
 
  &#38;
-
+ ```
+```
  <
 
  &lt;
 
  &#60;
-
+ ```
+ ```
  >
 
  &gt;
 
  &#62;
-
+ ```
+  ```
  '
 
  &apos;
 
  &#39;
-
+ ```
+  ```
  "
 
  &quot;
 
  &#34; 
+  ```
 
 ### copyright intro 
 ```
